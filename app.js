@@ -164,6 +164,20 @@
 
 // console.log(filteredArray)
 
+// exercise
+
+// let age = [18, 20, 16, 15, 21];
+
+// let filteredAge = age.filter(element => element >= 18
+//     )
+
+// console.log(filteredAge)
+
+//  let people = [18, 20, 16, 15, 21];
+
+// for (let i = 0; i < people.length; i++){
+//     console.log(i)
+// }
 
 
 
@@ -174,9 +188,13 @@
 
 
 
-let age = [18, 20, 16, 15, 21];
 
-let filteredAge = age.filter(element => element >= 18
-    )
 
-console.log(filteredAge)
+
+
+
+
+
+
+
+
