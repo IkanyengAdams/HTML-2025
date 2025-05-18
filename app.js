@@ -241,3 +241,11 @@
 // ) {
 //     console.log 
 // }
+
+// The DOM
+
+// // Change content / html
+// document.querySelector('h1').innerHTML += "Asap Frontend"
+
+// // Change CSS
+// document.querySelector('h1').style.fontSize = "20px"
