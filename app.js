@@ -5,12 +5,9 @@
 // let age = 18;
 // let name = "Ika";
 
-
-
 // Const Keyword
 
 // const points = 100;
-
 
 // Curency Converter
 
@@ -21,7 +18,6 @@
 // let USD = 1200;
 // let AUD = USD * 1.5;
 
-
 // let hasMembership = true;
 // let signedIn = true;
 
@@ -30,8 +26,7 @@
 // }
 // else {
 //     // console.log("tell user to log in")
-// } 
-
+// }
 
 // if (age >= 18) {
 //     //console.log(`You're older than ${age}, you may enter the club`)
@@ -75,7 +70,7 @@
 //    else{
 //     console.log(`${i} FRONTEND`)
 //    }
-  
+
 // }
 
 // str = "ASAP Frontend";
@@ -98,7 +93,7 @@
 
 // function sum(num1, num2) {
 //     return num1 + num2
-    
+
 // }
 
 // console.log(sum(5, 4))
@@ -145,7 +140,7 @@
 
 // console.log(filteredArray)
 
-// another way 
+// another way
 
 // let array = [20, 15, 10, 30];
 
@@ -160,7 +155,6 @@
 // let array = [20, 15, 10, 30];
 
 // let filteredArray = array.filter((element) => element <= 15);
-
 
 // console.log(filteredArray)
 
@@ -179,7 +173,6 @@
 //     console.log(i)
 // }
 
-
 //  Map method
 
 // let array = [1, 2, 3, 4, 5];
@@ -188,13 +181,11 @@
 
 // console.log(newArray)
 
-
 // let usDollars = [10, 20, 30, 40]
 
 // let auDollars = usDollars.map((element) => element * 1.5)
 
 // console.log(auDollars)
-
 
 // let usDollars = [100, 150, 35]
 
@@ -217,13 +208,36 @@
 
 // Objects
 
+// let users = [
+//   {
+//     email: "ika@gmail.com",
+//     password: "test1234",
+//     name: "Ika Adams",
+//     discord: "examplediscord",
+//     subscription: "VIP+",
+//     lessonsCompleted: [1, 2, 3],
+//   },
+//   {
+//     email: "kat@gmail.com",
+//     password: "test1234",
+//     name: "Ika Adams",
+//     discord: "examplediscord",
+//     subscription: "VIP+",
+//     lessonsCompleted: [1, 2, 3],
+//   },
+// ];
 
+// console.log(users[0].lessonsCompleted.map((element) => element * 2));
 
+// console.log(users[1].name[0]);
 
-
-
-
-
-
-
-
+// function signUp(
+//   email,
+//   password,
+//   name,
+//   discord,
+//   subscription,
+//   lessonCompleted
+// ) {
+//     console.log 
+// }
