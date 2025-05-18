@@ -1,0 +1,116 @@
+//  console.log("ASAP Frontend"[12]); // string indexing
+//  console.log("ASAP Frontend".length); // How many characters does the string have
+
+let userEmail = "ika@gmail.com"
+let age = 18;
+let name = "Ika";
+
+
+
+// Const Keyword
+
+const points = 100;
+
+
+// Curency Converter
+
+// $AUD to $USD Formula:
+
+// AUD = USD x 1.5
+
+let USD = 1200;
+let AUD = USD * 1.5;
+
+
+let hasMembership = true;
+let signedIn = true;
+
+if (hasMembership === true) {
+    //console.log("Show user the video")
+}
+else {
+    // console.log("tell user to log in")
+} 
+
+
+if (age >= 18) {
+    //console.log(`You're older than ${age}, you may enter the club`)
+}
+else {
+    //console.log(`You are less than ${age}, get outta here!`)
+}
+
+// Tenary operators
+
+let hasId = false
+
+// console.log(age >= 18 || hasId ? "You may enter the club" : "You cannot enter the club");
+
+// console.log(hasMembership && signedIn ? "Show user the video" : "Tell the user to login");
+
+//  Loops
+
+// let counter = 1
+
+// while (counter <= 20) {
+//     console.log(counter);
+//     counter = counter + 1
+// }
+
+// console.log("While loop finished running");
+
+// For loop
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i)
+// }
+
+// for (i = 1; i <= 15; i++) {
+//    if(i % 5 === 0){
+//     console.log(`${i} - ASAP FRONTEND`)
+//    }
+//    else if(i % 2 === 0){
+//     console.log(`${i} ASAP`)
+//    }
+//    else{
+//     console.log(`${i} FRONTEND`)
+//    }
+  
+// }
+
+// str = "ASAP Frontend";
+
+// for(let i = 0; i < str.length; i++){
+//     console.log(str[i]);
+// }
+
+// Functions
+
+// // Function Declaration
+// function greetUser(name, time){
+//    console.log(`Good ${time}, ${name}`);
+// }
+
+// // Calling the function
+// greetUser("Ika", "morning");
+// greetUser("Kat");
+// greetUser("Megan");
+
+// function sum(num1, num2) {
+//     return num1 + num2
+    
+// }
+
+// console.log(sum(5, 4))
+
+// function convertUsdToAud(usdAmount, exchangeRate){
+//     return usdAmount * exchangeRate
+// }
+
+// Arrow function
+
+// const convertUsdToAud = (usdAmount, exchangeRate) => {
+//     return usdAmount * exchangeRate
+// }
+
+// console.log(convertUsdToAud(1000, 1.5))
