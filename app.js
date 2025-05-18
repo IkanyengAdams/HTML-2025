@@ -180,13 +180,30 @@
 // }
 
 
+//  Map method
+
+// let array = [1, 2, 3, 4, 5];
+
+// let newArray = array.map(element => "Ekse")
+
+// console.log(newArray)
 
 
+// let usDollars = [10, 20, 30, 40]
+
+// let auDollars = usDollars.map((element) => element * 1.5)
+
+// console.log(auDollars)
 
 
+let usDollars = [100, 150, 35]
 
+let auDollar = usDollars.map((element) => {
+    console.log(element)
+    return element * 1.5
+})
 
-
+console.log(auDollar)
 
 
 
