@@ -249,3 +249,14 @@
 
 // // Change CSS
 // document.querySelector('h1').style.fontSize = "20px"
+
+// 
+
+// function changeButtonToGreen() {
+//     document.querySelector('button').style.backgroundColor = "green"
+// }
+
+function toggleSidebar() {
+    document.querySelector('body').classList.toggle("open")
+}
+
