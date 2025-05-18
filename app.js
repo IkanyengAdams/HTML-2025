@@ -1,15 +1,15 @@
 //  console.log("ASAP Frontend"[12]); // string indexing
 //  console.log("ASAP Frontend".length); // How many characters does the string have
 
-let userEmail = "ika@gmail.com"
-let age = 18;
-let name = "Ika";
+// let userEmail = "ika@gmail.com"
+// let age = 18;
+// let name = "Ika";
 
 
 
 // Const Keyword
 
-const points = 100;
+// const points = 100;
 
 
 // Curency Converter
@@ -18,31 +18,31 @@ const points = 100;
 
 // AUD = USD x 1.5
 
-let USD = 1200;
-let AUD = USD * 1.5;
+// let USD = 1200;
+// let AUD = USD * 1.5;
 
 
-let hasMembership = true;
-let signedIn = true;
+// let hasMembership = true;
+// let signedIn = true;
 
-if (hasMembership === true) {
-    //console.log("Show user the video")
-}
-else {
-    // console.log("tell user to log in")
-} 
+// if (hasMembership === true) {
+//     //console.log("Show user the video")
+// }
+// else {
+//     // console.log("tell user to log in")
+// } 
 
 
-if (age >= 18) {
-    //console.log(`You're older than ${age}, you may enter the club`)
-}
-else {
-    //console.log(`You are less than ${age}, get outta here!`)
-}
+// if (age >= 18) {
+//     //console.log(`You're older than ${age}, you may enter the club`)
+// }
+// else {
+//     //console.log(`You are less than ${age}, get outta here!`)
+// }
 
 // Tenary operators
 
-let hasId = false
+// let hasId = false
 
 // console.log(age >= 18 || hasId ? "You may enter the club" : "You cannot enter the club");
 
@@ -114,3 +114,69 @@ let hasId = false
 // }
 
 // console.log(convertUsdToAud(1000, 1.5))
+
+// Arrays
+
+// let array = ["Apples", "Bananas", "Eggs", "Milk"]
+
+// // First element of an array
+// console.log(array[0])
+
+// // Last element of an array
+// console.log(array[array.length - 1])
+
+// // array methods
+// array.push("Grapes")
+
+// array.filter((element) => {
+//     console.log(element);
+// })
+
+// console.log(array)
+
+// let array = [20, 15, 10, 30];
+
+// let filteredArray = array.filter((element) => {
+//     console.log(element)
+//     if(element <= 15){
+//         return true
+//     }
+// })
+
+// console.log(filteredArray)
+
+// another way 
+
+// let array = [20, 15, 10, 30];
+
+// let filteredArray = array.filter(element => {
+//      return element <= 15;
+//     })
+
+//     console.log(filteredArray)
+
+// 3rd way
+
+// let array = [20, 15, 10, 30];
+
+// let filteredArray = array.filter((element) => element <= 15);
+
+
+// console.log(filteredArray)
+
+
+
+
+
+
+
+
+
+
+
+let age = [18, 20, 16, 15, 21];
+
+let filteredAge = age.filter(element => element >= 18
+    )
+
+console.log(filteredAge)
